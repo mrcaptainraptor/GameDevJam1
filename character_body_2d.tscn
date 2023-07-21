@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://o2x70dsraq3m"]
+
+[ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_hio16"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2pcbs"]
+size = Vector2(111, 91)
+
+[sub_resource type="QuadMesh" id="QuadMesh_rfq3x"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_hio16")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_2pcbs")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+position = Vector2(1, 1)
+scale = Vector2(112, 92)
+mesh = SubResource("QuadMesh_rfq3x")
