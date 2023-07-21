@@ -1,10 +1,4 @@
-# GameDev
 
-# Code might be here soon :P
+# WEE GOT THIS :)
 
-# Test Working LOL
-# GameDevJam1
-
-# test test
-
-# Yooooo
+# (≖ ͜ʖ≖)
